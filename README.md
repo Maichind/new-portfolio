@@ -13,7 +13,7 @@ Aquí muestro mis proyectos, experiencia y habilidades como desarrollador web.
 
 ## 🖼️ Demo
 
-👉 [Ver Portafolio en línea](https://tusitio.com)  
+👉 [Ver Portafolio en línea](https://portfolio-mind.netlify.app/)  
 
 ## 🛠️ Tecnologías usadas
 
