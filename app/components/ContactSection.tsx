@@ -7,8 +7,8 @@ export default function ContactSection() {
 		<section className="bg-black py-12 md:py-20 px-4 border-t border-gray-800">
 			<div className="max-w-3xl mx-auto text-center">
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center space-y-6">
-					<h2 className="text-3xl text-white md:text-4xl font-bold mb-8" style={{ opacity: 1, transform: 'none' }}>Let's Connect</h2>
-					<p className="text-gray-300 mb-6" style={{ opacity: 1, transform: 'none' }}>Big or small, every idea has potential. Let's build something extraordinary together.</p>
+					<h2 className="text-3xl text-white md:text-4xl font-bold mb-8" style={{ opacity: 1, transform: 'none' }}>{"Let's Connect"}</h2>
+					<p className="text-gray-300 mb-6" style={{ opacity: 1, transform: 'none' }}>{"Big or small, every idea has potential. Let's build something extraordinary together."}</p>
 
 					{/* Location */}
 					<div className="flex items-center justify-center gap-2 text-gray-300">
