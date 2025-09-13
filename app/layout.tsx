@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://portfolio-mind.netlify.app"),
 	title: 'Mind! Developer',
 	description:
 		'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
@@ -36,27 +37,27 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Maichol Mindiola' }],
 	creator: 'Maichol Mindiola',
 	openGraph: {
-		title: 'Maichol Mindiola - Developer Portfolio',
-		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		url: 'https://your-domain.com',
-		siteName: 'Maichol Mindiola - Portfolio',
+		title: "Maichol Mindiola - Developer Portfolio",
+		description: "Passionate developer creating simple and effective solutions. Explore my projects and development approach.",
+		url: "https://portfolio-mind.netlify.app",
+		siteName: "Maichol Mindiola - Portfolio",
 		images: [
 			{
-				url: '/code.jpg',
+				url: "/portfolio.png",
 				width: 1200,
 				height: 630,
-				alt: 'Maichol Mindiola - Developer Portfolio',
+				alt: "Maichol Mindiola - Developer Portfolio",
 			},
 		],
-		locale: 'en_US',
-		type: 'website',
+		locale: "en_US",
+		type: "website",
 	},
 	twitter: {
 		card: 'summary_large_image',
 		title: 'Maichol Mindiola - Developer',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		creator: '@yourusername',
-		images: ['/code.jpg'],
+		creator: '@MMindiola_',
+		images: ['/portfolio.png'],
 	},
 	robots: {
 		index: true,
