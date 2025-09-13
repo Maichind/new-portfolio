@@ -12,10 +12,10 @@ export default function HeroSection() {
 				<h1 className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Maichol Mindiola Joiro</h1>
 				<p className="text-lg md:text-xl text-gray-300 mb-8 px-4" style={{ opacity: 1, transform: 'none' }}>Frontend Developer</p>
 				<p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
-					I build Desarrollo aplicaciones web modernas y escalables. Especializado en Angular, React, TypeScript y JavaScript (ES6+),
-					con sólidos conocimientos en consumo de APIs RESTful y GraphQL, optimización del rendimiento y diseño responsivo.
-					Experiencia liderando proyectos remotos y colaborando con equipos multidisciplinarios, garantizando interfaces de alta calidad
-					y experiencias de usuario excepcionales.
+					I build modern and scalable web applications. I specialize in Angular, React, TypeScript, and JavaScript (ES6+),
+					with solid knowledge of RESTful and GraphQL API consumption, performance optimization, and responsive design.
+					Experience leading remote projects and collaborating with multidisciplinary teams, ensuring high-quality interfaces
+					and exceptional user experiences.
 				</p>
 				<div className="absolute bottom-10 left-1/2 transform -translate-x-1/2" style={{ opacity: 1, transform: 'none' }}>
 					<div className="animate-bounce">
