@@ -8,6 +8,15 @@ export default function ProjectsSection({ id }: { id?: string }) {
 
 	const projects = [
 		{
+			title: "Macramé Store",
+			description: lang === "en" ?
+				"Handmade macramé e-commerce offering unique decor and accessories." :
+				"E-commerce de macramé artesanal con piezas únicas para decoración y accesorios.",
+			image: "/macrame-store.png",
+			projectLink: "https://macrame-ecommerce.vercel.app/",
+			githubLink: "https://github.com/Maichind/macrame-ecommerce",
+		},
+		{
 			title: "ZenTasks",
 			description: lang === "en" ?
 				"Minimalist task application to create, organize and manage to-dos simply and efficiently." :
