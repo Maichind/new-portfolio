@@ -1,12 +1,12 @@
 'use client';
 
 import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import ProjectsSection from './components/ProjectsSection';
-import SkillsSection from './components/SkillsSection';
-import Experience from './components/Experience';
 import Studies from './components/Studies';
+import Experience from './components/Experience';
+import HeroSection from './components/HeroSection';
+import SkillsSection from './components/SkillsSection';
 import ContactSection from './components/ContactSection';
+import ProjectsSection from './components/ProjectsSection';
 
 export default function SimplePortfolio() {
 	return (

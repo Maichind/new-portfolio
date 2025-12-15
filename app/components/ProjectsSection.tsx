@@ -6,7 +6,28 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function ProjectsSection({ id }: { id?: string }) {
 	const { lang } = useLanguage();
 
+	/* const profesionalProjects = [
+		{
+			title: "Macramé Store",
+			description: lang === "en" ?
+				"Handmade macramé e-commerce offering unique decor and accessories." :
+				"E-commerce de macramé artesanal con piezas únicas para decoración y accesorios.",
+			image: "/macrame-store.png",
+			projectLink: "https://macrame-ecommerce.vercel.app/",
+			caseStudy: "https://macrame-ecommerce.vercel.app/",
+			githubLink: "https://github.com/Maichind/macrame-ecommerce",
+		}
+	]; */
 	const projects = [
+		{
+			title: "Synkorax",
+			description: lang === "en" ?
+				"Mini social network built with modern Angular, focused on minimal design, scalable architecture, and current frontend best practices." :
+				"Mini red social desarrollada con Angular moderno, enfocada en diseño minimalista, arquitectura escalable y prácticas modernas de desarrollo frontend.",
+			image: "/synkorax.png",
+			projectLink: "https://synkorax.netlify.app/",
+			githubLink: "https://github.com/Maichind/modern-angular-app",
+		},
 		{
 			title: "Macramé Store",
 			description: lang === "en" ?
@@ -51,25 +72,7 @@ export default function ProjectsSection({ id }: { id?: string }) {
 			image: "/votacionesapp.png",
 			projectLink: "https://app-votaciones-2022.netlify.app/",
 			githubLink: "https://github.com/Maichind/Frontend-APP-Votaciones",
-		},
-		{
-			title: "Portfolio v1",
-			description: lang === "en" ?
-				"First personal portfolio built with core frontend technologies: HTML, CSS, and JavaScript." :
-				"Primer portafolio personal construido con tecnologías frontend básicas: HTML, CSS y JavaScript.",
-			image: "/portfoliov1.png",
-			projectLink: "https://portfolio-mind-developer.netlify.app/",
-			githubLink: "https://github.com/Maichind/Portfolio-mind",
-		},
-		{
-			title: lang === "en" ? "Test Sketch" : "Boceto prueba",
-			description: lang === "en" ?
-				"CRUD application built as a technical test, featuring tables to manage cars in different stages: storage, preparation, for sale, and sold." :
-				"Aplicación CRUD construida como prueba técnica, con tablas para gestionar carros en diferentes etapas: bodega, preparación, en venta y vendidos",
-			image: "/jquerytest.png",
-			projectLink: "https://prueba-jsnativo-jquery.netlify.app/",
-			githubLink: "https://github.com/Maichind/Prueba-JsNativo-jQuery",
-		},
+		}		
 	];
 
 	return (
@@ -78,6 +81,61 @@ export default function ProjectsSection({ id }: { id?: string }) {
 			className="w-full min-h-screen py-16 sm:py-20 bg-black scroll-mt-16"
 		>
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				{/* Professional Experience */}
+				{/* <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 md:mb-12 text-center">
+					{lang === "en" ? "Professional Experience" : "Experiencia Profesional"}
+				</h2>
+
+				<div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb--10 md:mb-12">
+					{profesionalProjects.map((project) => (
+						<div
+							key={project.title}
+							className="relative bg-gray-900 rounded-2xl overflow-hidden shadow-lg 
+								group hover:scale-[1.02] transition-transform duration-300"
+						>					
+							<div className="relative w-full h-56 sm:h-64 md:h-72 overflow-hidden">
+								<Image
+									src={project.image}
+									alt={`Project ${project.title}`}
+									fill
+									className="object-cover group-hover:scale-110 transition-transform duration-500"
+								/>
+								<div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent " />
+							</div>
+			
+							<div className="absolute inset-0 flex flex-col justify-end p-6 opacity-90 group-hover:opacity-100 
+								transition-opacity duration-500">
+								<h3 className="text-xl font-semibold text-white mb-2 group-hover:translate-y-0 translate-y-2 
+									transition-transform duration-500">
+									{project.title}
+								</h3>
+								<p className="text-sm text-gray-300 mb-4 line-clamp-3">
+									{project.description}
+								</p>
+								<div className="flex gap-3">
+									<a
+										href={project.projectLink}
+										target="_blank"
+										className="px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white 
+											text-sm font-medium rounded-full hover:opacity-90 transition"
+									>
+										{lang === "en" ? "Live Product" : "Ver Producto"}
+									</a>
+									<a
+										href={project.caseStudy}
+										target="_blank"
+										className="px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 
+											text-white text-sm font-medium rounded-full hover:bg-white/20 transition"
+									>
+										{lang === "en" ? "Case Study" : "Demo"}
+									</a>
+								</div>
+							</div>
+						</div>
+					))}
+				</div> */}
+
+				{/* Featured projects */}
 				<h2 className="text-3xl md:text-4xl font-bold text-white mb-10 md:mb-12 text-center">
 					{lang === "en" ? "Featured Projects" : "Proyectos Destacados"}
 				</h2>
@@ -90,7 +148,7 @@ export default function ProjectsSection({ id }: { id?: string }) {
 								group hover:scale-[1.02] transition-transform duration-300"
 						>
 							{/* Imagen con efecto zoom */}
-							<div className="relative w-full h-56 sm:h-64 md:h-72 overflow-hidden">
+							<div className="relative w-full h-48 sm:h-56 md:h-64 overflow-hidden">
 								<Image
 									src={project.image}
 									alt={`Project ${project.title}`}

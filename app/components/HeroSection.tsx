@@ -18,16 +18,22 @@ export default function HeroSection() {
 				<h1 className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent 
 					bg-gradient-to-r from-blue-400 to-purple-600">Maichol Mindiola Joiro
 				</h1>
-				<p className="text-lg md:text-xl text-gray-300 mb-8 px-4" style={{ opacity: 1, transform: 'none' }}>
+				<p className="text-lg md:text-xl text-gray-300 mb-8" style={{ opacity: 1, transform: 'none' }}>
 					{lang === "en" ? "Frontend Developer" : "Desarrollador Frontend"}
 				</p>
-				<p className="text-gray-400 max-w-3xl mx-auto text-sm sm:text-base px-4">
+				<p className="text-gray-400 font-bold max-w-3xl mx-auto text-sm sm:text-base">
 					{
 						lang === "en" ?
-							"I build modern and scalable web applications. I specialize in Angular, React, TypeScript, and JavaScript (ES6+), with solid knowledge of RESTful and GraphQL API consumption, performance optimization, and responsive design. Experience leading remote projects and collaborating with multidisciplinary teams, ensuring high-quality interfaces and exceptional user experiences." :
-							"Construyo aplicaciones web modernas y escalables. Me especializo en Angular, React, TypeScript y JavaScript (ES6+), con sólidos conocimientos en el consumo de APIs RESTful y GraphQL, optimización de rendimiento y diseño responsivo. Tengo experiencia liderando proyectos remotos y colaborando con equipos multidisciplinarios, asegurando interfaces de alta calidad y experiencias de usuario excepcionales."
+							"I design and build scalable, production-ready web applications." :
+							"Diseño y desarrollo aplicaciones web escalables utilizadas en producción."
 					}
-
+				</p>
+				<p className="text-gray-400 max-w-4xl mx-auto text-sm sm:text-base">
+					{
+						lang === "en" ?
+							"Frontend-focused developer with strong experience in Angular, React, Next.js, TypeScript, and JavaScript (ES6+), specialized in performance optimization, scalable frontend architectures, API integration (REST & GraphQL), and responsive UI systems. Proven experience delivering real-world products, leading technical initiatives, and collaborating with distributed, multidisciplinary teams to create high-quality, user-centered interfaces." :
+							"Desarrollador enfocado en frontend con sólida experiencia en Angular, React, Next.js, TypeScript y JavaScript (ES6+), especializado en optimización de rendimiento, arquitecturas frontend escalables, integración de APIs (REST y GraphQL) y sistemas de UI responsivos. Experiencia comprobada entregando productos reales, liderando iniciativas técnicas y colaborando con equipos multidisciplinarios y distribuidos para crear interfaces de alta calidad centradas en el usuario."
+					}
 				</p>
 				<div className="flex flex-wrap justify-center gap-3 mt-12 max-w-3xl">
 					<Badge tech="Angular" />

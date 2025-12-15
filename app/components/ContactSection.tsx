@@ -45,10 +45,8 @@ export default function ContactSection({ id }: { id?: string }) {
 						<a
 							href="mailto:mmindiola.dev@gmail.com"
 							className="group flex items-center gap-2 px-6 py-3 rounded-full 
-                         bg-gradient-to-r from-purple-600/30 to-purple-900/30
-                         hover:from-purple-600 hover:to-purple-800
-                         border border-purple-500/20
-                         text-white transition-all duration-300 w-full sm:w-auto"
+								bg-gradient-to-r from-purple-600/30 to-purple-900/30 hover:from-purple-600 hover:to-purple-800
+								border border-purple-500/20 text-white transition-all duration-300 w-full sm:w-auto"
 						>
 							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
 								<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -61,10 +59,8 @@ export default function ContactSection({ id }: { id?: string }) {
 							href="/CV Maichol Mindiola.pdf"
 							target="_blank"
 							className="group flex items-center gap-2 px-6 py-3 rounded-full 
-                         bg-gradient-to-r from-purple-600/30 to-purple-900/30
-                         hover:from-purple-600 hover:to-purple-800
-                         border border-purple-500/20
-                         text-white transition-all duration-300 w-full sm:w-auto"
+								bg-gradient-to-r from-purple-600/30 to-purple-900/30 hover:from-purple-600 hover:to-purple-800
+								border border-purple-500/20 text-white transition-all duration-300 w-full sm:w-auto"
 						>
 							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
 								<path fillRule="evenodd"
