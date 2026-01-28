@@ -43,6 +43,7 @@ export default function HeroSection() {
 					<Badge tech="JavaScript (ES6+)" />
 					<Badge tech="Git" />
 					<Badge tech="NPM" />
+					<Badge tech="PNPM" />
 				</div>
 				<div className="absolute bottom-10 left-1/2 transform -translate-x-1/2" style={{ opacity: 1, transform: 'none' }}>
 					<div className="animate-bounce">

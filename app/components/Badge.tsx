@@ -1,7 +1,7 @@
 import React from "react";
 
 type BadgeProps = {
-    tech: "Angular" | "React" | "Next.js" | "TypeScript" | "JavaScript (ES6+)" | "Git" | "NPM";
+    tech: "Angular" | "React" | "Next.js" | "TypeScript" | "JavaScript (ES6+)" | "Git" | "NPM" | "PNPM";
 };
 
 const badgeStyles: Record<BadgeProps["tech"], string> = {
@@ -11,13 +11,14 @@ const badgeStyles: Record<BadgeProps["tech"], string> = {
     TypeScript: "bg-blue-600/20 text-blue-400 hover:bg-blue-600/30 hover:text-blue-300",
     "JavaScript (ES6+)": "bg-yellow-500/20 text-yellow-300 hover:bg-yellow-500/30 hover:text-yellow-200",
     Git: "bg-orange-500/20 text-orange-400 hover:bg-orange-500/30 hover:text-orange-300",
-    NPM: "bg-red-600/20 text-red-400 hover:bg-red-600/30 hover:text-red-300",
+    NPM: "bg-green-600/20 text-green-400 hover:bg-green-600/30 hover:text-green-300",
+    PNPM: "bg-red-600/20 text-red-400 hover:bg-red-600/30 hover:text-red-300"
 };
 
 export default function Badge({ tech }: BadgeProps) {
     return (
         <span
-            className={`px-3 py-1 rounded-lg text-sm font-medium text-white transition 
+            className={`px-3 py-1 rounded-lg text-sm font-medium text-white transition cursor-pointer
         hover:shadow-lg ${badgeStyles[tech]}`}
         >
             {tech}
