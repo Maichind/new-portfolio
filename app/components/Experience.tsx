@@ -8,98 +8,82 @@ export default function Experience({ id }: { id?: string }) {
 		es: [
 			{
 				role: "Fullstack Developer",
-				company: "Freelancer",
-				period: "2025",
+				company: "Dragonfly Labs",
+				period: "Noviembre 2024 - Presente",
 				description: [
-					"Definí la arquitectura técnica y desarrollé una plataforma de E-commerce de alto rendimiento utilizando Next.js, logrando una mejora significativa en los puntajes de SEO y velocidad de carga (LCP).",
-					"Diseñé un sistema de base de datos optimizado con PostgreSQL y Prisma ORM, reduciendo la latencia de las consultas de productos en tiempo real.",
-					"Implementé la infraestructura de backend mediante Supabase, integrando autenticación segura y manejo de estado en tiempo real para procesos de pago.",
-					"Diseñé y estructuré componentes UI reutilizables con consistencia visual y escalabilidad para nuevas funcionalidades."					
+					"Lideré el desarrollo de soluciones fullstack en entornos de consultoría (enterprise, e-commerce y analítica), entregando productos escalables con foco en performance y experiencia de usuario.",
+					"Diseñé y desarrollé un sistema de automatización documental basado en IA (OpenAI API), generando contenido estructurado dinámico y optimizando procesos empresariales.",
+					"Definí arquitecturas modernas (FastAPI, React, Next.js) bajo principios de separación de responsabilidades y enfoque feature-based, mejorando mantenibilidad y evolución del producto.",
+					"Implementé autenticación empresarial (MSAL + OAuth2) e integración con Microsoft Graph API para gestión segura de usuarios en Microsoft 365.",
+					"Optimicé performance frontend (Core Web Vitals, LCP) y construí sistemas de componentes reutilizables, reduciendo tiempos de desarrollo en ~20%.",
+					"Integré APIs GraphQL y gestioné estados complejos en dashboards analíticos, mejorando la visualización y fluidez de datos en tiempo real."
 				]
 			},
 			{
 				role: "Frontend Developer",
-				company: "Datamart",
-				period: "2024 - 2025",
-				description: [
-					"Desarrollé interfaces dinámicas de alta fidelidad, asegurando una compatibilidad del 100% en dispositivos móviles y navegadores modernos.",
-					"Reduje el tiempo de desarrollo en un 20% mediante la creación de componentes UI reutilizables y escalables.",
-					"Optimicé la gestión de datos complejos integrando APIs de GraphQL y máquinas de estado, mejorando la fluidez de la experiencia de usuario en dashboards analíticos.",
-					"Desarrollé widgets dinámicos, participando también en su integración dentro de los sitios web de los clientes.",
-					"Colaboré con el equipo de UX/UI para garantizar coherencia visual y funcional en todas las plataformas."					
-				]
-			},
-			{
-				role: "Frontend Developer (Mid level)",
 				company: "Red 5G",
-				period: "2023 - 2024",
+				period: "Febrero 2023 - Octubre 2024",
 				description: [
-					"Lideré la estandarización de mejores prácticas de codificación, logrando una reducción del 40% en bugs reportados en el entorno de producción.",
-					"Brindé mentoría técnica a miembros del equipo, elevando la calidad técnica del equipo y acelerando los tiempos de entrega de sprints.",
-					"Optimicé el rendimiento de aplicaciones mediante técnicas de lazy loading y code splitting, disminuyendo el tiempo de carga inicial en un 30%.",
-					"Participé en la definición de la estrategia técnica junto a arquitectos para asegurar la escalabilidad a largo plazo de los productos core.",
-					"Construí aplicaciones web responsivas garantizando interfaces de alta calidad y accesibilidad (WCAG).",
-					"Integré servicios RESTful, optimizando el flujo de datos entre el cliente y el servidor para mejorar la interactividad de las plataformas.",
-					"Implementé pruebas unitarias en Angular, incrementando la cobertura de código y la estabilidad de las funcionalidades críticas."				
+					"Lideré la estandarización de buenas prácticas de desarrollo frontend, reduciendo defectos en producción en ~40% y mejorando la estabilidad de las aplicaciones.",
+					"Optimicé el rendimiento de aplicaciones Angular mediante lazy loading y code splitting, logrando una reducción de ~30% en el tiempo de carga inicial.",
+					"Desarrollé interfaces accesibles bajo lineamientos WCAG, asegurando usabilidad inclusiva y cumplimiento de estándares en múltiples dispositivos.",
+					"Implementé estructuras modulares y componentes reutilizables, mejorando la mantenibilidad y acelerando la entrega de nuevas funcionalidades.",
+					"Mentoricé a desarrolladores junior, elevando la calidad del código y reduciendo tiempos de entrega mediante revisiones técnicas y buenas prácticas.",
+					"Contribuí a la evolución de aplicaciones frontend escalables, participando en decisiones técnicas y mejoras continuas de arquitectura."	
 				]
 			},
 			{
 				role: "Frontend Developer",
 				company: "Freelancer",
-				period: "2022 - 2023",
+				period: "Febrero 2022 - Enero 2023",
 				description: [
-					"Diseñé y desarrollé interfaces interactivas personalizadas, transformando requerimientos técnicos complejos en soluciones visuales funcionales para diversos clientes.",
-					"Aseguré la compatibilidad multiplataforma mediante la implementación de diseños mobile-first y responsivos, garantizando una navegación fluida en dispositivos móviles y de escritorio.",
-					"Potencié la escalabilidad de las aplicaciones mediante la integración de APIs RESTful de terceros, permitiendo la comunicación eficiente con servicios externos y bases de datos."					
+					"Desarrollé interfaces web a medida para distintos clientes, alineando requerimientos técnicos con objetivos de negocio en múltiples proyectos.",
+					"Implementé diseños responsive bajo enfoque mobile-first, garantizando consistencia visual y funcional en diversos dispositivos y navegadores.",
+					"Integré APIs REST para consumo de datos y conexión con servicios externos, asegurando flujos de información eficientes y confiables.",
+					"Construí componentes reutilizables y estructuras frontend escalables, facilitando la evolución y mantenimiento de las aplicaciones.",
+					"Optimicé la experiencia de usuario mediante mejoras en interacción, tiempos de carga y usabilidad general en entornos web.",
+					"Gestioné múltiples entregables de forma autónoma, cumpliendo plazos y adaptándome a distintos contextos y necesidades de cliente."
 				]
 			}
 		],
 		en: [
 			{
 				role: "Fullstack Developer",
-				company: "Freelancer",
-				period: "2025",
+				company: "Dragonfly Labs",
+				period: "Noviembre 2024 - Present",
 				description: [
-					"Defined the technical architecture and developed a high-performance E-commerce platform using Next.js, achieving a significant improvement in SEO scores and loading speed (LCP).",
-					"Designed an optimized database system using PostgreSQL and Prisma ORM, reducing latency in real-time product queries.",
-					"Implemented backend infrastructure using Supabase, integrating secure authentication and real-time state management for payment processes.",
-					"Designed and structured reusable UI components with visual consistency and scalability for future features."
+					"Led the development of fullstack solutions in consulting environments (enterprise, e-commerce, and analytics), delivering scalable products with a strong focus on performance and user experience.",
+					"Designed and developed an AI-powered document automation system (OpenAI API), generating dynamic structured content and optimizing business processes.",
+					"Defined modern architectures (FastAPI, React, Next.js) following separation of concerns and a feature-based approach, improving maintainability and product evolution.",
+					"Implemented enterprise authentication (MSAL + OAuth2) and integrated Microsoft Graph API for secure user management within Microsoft 365.",
+					"Optimized frontend performance (Core Web Vitals, LCP) and built reusable component systems, reducing development time by ~20%.",
+					"Integrated GraphQL APIs and managed complex state in analytical dashboards, improving real-time data visualization and fluidity."
 				]
 			},
 			{
 				role: "Frontend Developer",
-				company: "Datamart",
-				period: "2024 - 2025",
-				description: [
-					"Developed high-fidelity dynamic interfaces, ensuring 100% compatibility across mobile devices and modern browsers.",
-					"Reduced development time by 20% through the creation of reusable and scalable UI components.",
-					"Optimized complex data management by integrating GraphQL APIs and state machines, improving user experience fluidity in analytical dashboards.",
-					"Developed dynamic widgets and participated in their integration within client websites.",
-					"Collaborated with the UX/UI team to ensure visual and functional consistency across all platforms."
-				]
-			},
-			{
-				role: "Frontend Developer (Mid level)",
 				company: "Red 5G",
-				period: "2023 - 2024",
+				period: "Febrero 2023 - Octubre 2024",
 				description: [
-					"Led the standardization of coding best practices, achieving a 40% reduction in reported bugs in the production environment.",
-					"Provided technical mentorship to team members, improving overall technical quality and accelerating sprint delivery timelines.",
-					"Optimized application performance using lazy loading and code splitting techniques, reducing initial load time by 30%.",
-					"Participated in defining the technical strategy alongside architects to ensure long-term scalability of core products.",
-					"Built responsive web applications ensuring high-quality interfaces and accessibility compliance (WCAG).",
-					"Integrated RESTful services, optimizing data flow between client and server to enhance platform interactivity.",
-					"Implemented unit tests in Angular, increasing code coverage and stability of critical features."
+					"Led the standardization of frontend development best practices, reducing production defects by ~40% and improving application stability.",
+					"Optimized Angular application performance through lazy loading and code splitting, achieving a ~30% reduction in initial load time.",
+					"Developed accessible interfaces following WCAG guidelines, ensuring inclusive usability and compliance across multiple devices.",
+					"Implemented modular structures and reusable components, improving maintainability and accelerating feature delivery.",
+					"Mentored junior developers, improving code quality and reducing delivery time through technical reviews and best practices.",
+					"Contributed to the evolution of scalable frontend applications by participating in technical decisions and continuous architecture improvements."
 				]
 			},
 			{
 				role: "Frontend Developer",
 				company: "Freelancer",
-				period: "2022 - 2023",
+				period: "Febrero 2022 - Enero 2023",
 				description: [
-					"Designed and developed custom interactive interfaces, transforming complex technical requirements into functional visual solutions for diverse clients.",
-					"Ensured cross-platform compatibility through mobile-first and responsive design implementations, delivering seamless navigation across mobile and desktop devices.",
-					"Enhanced application scalability by integrating third-party RESTful APIs, enabling efficient communication with external services and databases."
+					"Developed custom web interfaces for various clients, aligning technical requirements with business objectives across multiple projects.",
+					"Implemented responsive designs using a mobile-first approach, ensuring visual and functional consistency across devices and browsers.",
+					"Integrated REST APIs for data consumption and external service connectivity, ensuring efficient and reliable data flows.",
+					"Built reusable components and scalable frontend structures, facilitating application evolution and maintenance.",
+					"Enhanced user experience through improvements in interaction, load times, and overall usability in web environments.",
+					"Managed multiple deliverables independently, meeting deadlines and adapting to diverse client contexts and needs."
 				]
 			}
 		]

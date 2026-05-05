@@ -6,24 +6,24 @@ export default function Studies({ id }: { id?: string }) {
 	const { lang } = useLanguage();
 	const studies = {
 		en: [
-			{ title: "Frontend Development with React", institution: "Platzi", period: "2025" },
-			{ title: "TailwindCSS", institution: "Platzi", period: "2025" },
-			{ title: "Frontend Development with Angular", institution: "Platzi", period: "2024" },
-			{ title: "JavaScript Professional", institution: "Platzi", period: "2023" },
+			{ title: "Mechatronics Engineering", institution: "University of Pamplona", period: "2014 - 2021" },
 			{ title: "Software Development", institution: "National University of Colombia", period: "2022" },
 			{ title: "Web Application Development", institution: "National University of Colombia", period: "2022" },
+			{ title: "TailwindCSS", institution: "Platzi", period: "2025" },
+			{ title: "Frontend Development with React", institution: "Platzi", period: "2025" },
+			{ title: "Frontend Development with Angular", institution: "Platzi", period: "2024" },
+			{ title: "JavaScript Professional", institution: "Platzi", period: "2023" },
 			{ title: "Basic Programming", institution: "Platzi", period: "2022" },
-			{ title: "Mechatronics Engineering", institution: "University of Pamplona", period: "2014 - 2021" },
 		],
 		es: [
-			{ title: "Desarrollo Frontend con React", institution: "Platzi", period: "2025" },
-			{ title: "TailwindCSS", institution: "Platzi", period: "2025" },
-			{ title: "Desarrollo Frontend con Angular", institution: "Platzi", period: "2024" },
-			{ title: "Profesional de JavaScript", institution: "Platzi", period: "2023" },
+			{ title: "Ingeniería Mecatrónica", institution: "Universidad de Pamplona", period: "2014 - 2021" },
 			{ title: "Desarrollo de Software", institution: "Universidad Nacional de Colombia", period: "2022" },
 			{ title: "Desarrollo de Aplicaciones Web", institution: "Universidad Nacional de Colombia", period: "2022" },
+			{ title: "TailwindCSS", institution: "Platzi", period: "2025" },
+			{ title: "Desarrollo Frontend con React", institution: "Platzi", period: "2025" },
+			{ title: "Desarrollo Frontend con Angular", institution: "Platzi", period: "2024" },
+			{ title: "Profesional de JavaScript", institution: "Platzi", period: "2023" },
 			{ title: "Programación Básica", institution: "Platzi", period: "2022" },
-			{ title: "Ingeniería Mecatrónica", institution: "Universidad de Pamplona", period: "2014 - 2021" },
 		],
 	};
 
