@@ -19,20 +19,20 @@ export default function HeroSection() {
 					bg-gradient-to-r from-blue-400 to-purple-600">Maichol Mindiola Joiro
 				</h1>
 				<p className="text-lg md:text-xl text-gray-300 mb-8" style={{ opacity: 1, transform: 'none' }}>
-					{lang === "en" ? "Frontend Developer" : "Desarrollador Frontend"}
+					{lang === "en" ? "Frontend Engineer" : "Ingeniero Frontend"}
 				</p>
-				<p className="text-gray-400 font-bold max-w-3xl mx-auto text-sm sm:text-base">
+				{/* <p className="text-gray-400 font-bold max-w-3xl mx-auto text-sm sm:text-base">
 					{
 						lang === "en" ?
 							"I design and build scalable, production-ready web applications." :
 							"Diseño y desarrollo aplicaciones web escalables utilizadas en producción."
 					}
-				</p>
+				</p> */}
 				<p className="text-gray-400 max-w-4xl mx-auto text-sm sm:text-base">
 					{
 						lang === "en" ?
-							"Frontend-focused developer with strong experience in Angular, React, Next.js, TypeScript, and JavaScript (ES6+), specialized in performance optimization, scalable frontend architectures, API integration (REST & GraphQL), and responsive UI systems. Proven experience delivering real-world products, leading technical initiatives, and collaborating with distributed, multidisciplinary teams to create high-quality, user-centered interfaces." :
-							"Desarrollador enfocado en frontend con sólida experiencia en Angular, React, Next.js, TypeScript y JavaScript (ES6+), especializado en optimización de rendimiento, arquitecturas frontend escalables, integración de APIs (REST y GraphQL) y sistemas de UI responsivos. Experiencia comprobada entregando productos reales, liderando iniciativas técnicas y colaborando con equipos multidisciplinarios y distribuidos para crear interfaces de alta calidad centradas en el usuario."
+							"Frontend Engineer with 4+ years of experience building scalable, high-performance web applications. Specialized in Angular, React, Next.js, and TypeScript, with a strong focus on performance optimization (Core Web Vitals), frontend architecture, and user experience. Experienced in leading technical initiatives, improving key performance metrics, integrating complex REST and GraphQL APIs, and building maintainable user interfaces in distributed team environments." :
+							"Frontend Engineer con +4 años de experiencia construyendo aplicaciones web escalables y de alto rendimiento. Especializado en Angular, React, Next.js y TypeScript, con enfoque en performance (Core Web Vitals), arquitectura frontend y experiencia de usuario. Experiencia liderando iniciativas técnicas, optimizando métricas clave de rendimiento, integrando APIs complejas (REST/GraphQL) y construyendo interfaces mantenibles en entornos distribuidos."
 					}
 				</p>
 				<div className="flex flex-wrap justify-center gap-3 mt-12 max-w-3xl">
